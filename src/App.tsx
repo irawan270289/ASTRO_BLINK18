@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { startGlobalAmbient } from "@/hooks/useAudio";
 import { ThemeProvider } from "@/contexts/ThemeContext";
-import WelcomePage from "./pages/WelcomePage";
+import Index from "./pages/Index";
 import MenuPage from "./pages/MenuPage";
 import PetunjukPage from "./pages/PetunjukPage";
 import KubusPage from "./pages/KubusPage";
@@ -37,10 +37,10 @@ import HimpunanMenuPage from "./pages/HimpunanMenuPage";
 import SegitigaDanSegiempatMenuPage from "./pages/SegitigaDanSegiempatMenuPage";
 import BilanganBerpangkatMenuPage from "./pages/BilanganBerpangkatMenuPage";
 import KesebangunanDanKekongruenMenuPage from "./pages/KesebangunanDanKekongruenMenuPage";
-import TransformasiGeometriMenuPage from "./pages/TransformasiGeometriMenuPage";
+// import TransformasiGeometriMenuPage from "./pages/TransformasiGeometriMenuPage";
 import BangunRuangSisiLengkungMenuPage from "./pages/BangunRuangSisiLengkungMenuPage";
 import BangunRuangSisiDatarMenuPage from "./pages/BangunRuangSisiDatarMenuPage";
-import TeoremaPythagorasMenuPage from "./pages/TeoremaPythagorasMenuPage";
+// import TeoremaPythagorasMenuPage from "./pages/TeoremaPythagorasMenuPage";
 import StatistikaMenuPage from "./pages/StatistikaMenuPage";
 import PeluangMenuPage from "./pages/PeluangMenuPage";
 import PersamaanGarisLurusMenuPage from "./pages/PersamaanGarisLurusMenuPage";
@@ -54,7 +54,7 @@ import ChatAIPage from "./pages/ChatAIPage";
 import PengaturanPage from "./pages/PengaturanPage";
 import TentangAplikasiPage from "./pages/TentangAplikasiPage";
 import KalkulatorScientificPage from "./pages/KalkulatorScientificPage";
-import VideoPembelajaranPage from "./pages/VideoPembelajaranPage";
+// import VideoPembelajaranPage from "./pages/VideoPembelajaranPage";
 import QuizGamezPage from "./pages/QuizGamezPage";
 import LatihanMandiriPage from "./pages/LatihanMandiriPage";
 import LatihanMandiriContentPage from "./pages/LatihanMandiriContentPage";
@@ -79,7 +79,7 @@ const AppInner = () => {
 
   return (
     <Routes>
-      <Route path="/" element={<WelcomePage />} />
+      <Route path="/" element={<Index />} />
       <Route path="/menu" element={<MenuPage />} />
       <Route path="/petunjuk" element={<PetunjukPage />} />
       {/* Materi subtopic routes - used by Quiz Gamez */}
@@ -104,10 +104,10 @@ const AppInner = () => {
       <Route path="/materi/segitiga-dan-segiempat" element={<SegitigaDanSegiempatMenuPage />} />
       <Route path="/materi/bilangan-berpangkat" element={<BilanganBerpangkatMenuPage />} />
       <Route path="/materi/kesebangunan-dan-kekongruen" element={<KesebangunanDanKekongruenMenuPage />} />
-      <Route path="/materi/transformasi-geometri" element={<TransformasiGeometriMenuPage />} />
+      {/* <Route path="/materi/transformasi-geometri" element={<TransformasiGeometriMenuPage />} /> */}
       <Route path="/materi/bangun-ruang-sisi-lengkung" element={<BangunRuangSisiLengkungMenuPage />} />
       <Route path="/materi/bangun-ruang-sisi-datar" element={<BangunRuangSisiDatarMenuPage />} />
-      <Route path="/materi/teorema-pythagoras" element={<TeoremaPythagorasMenuPage />} />
+      {/* <Route path="/materi/teorema-pythagoras" element={<TeoremaPythagorasMenuPage />} /> */}
       <Route path="/materi/statistika" element={<StatistikaMenuPage />} />
       <Route path="/materi/peluang" element={<PeluangMenuPage />} />
       <Route path="/materi/persamaan-garis-lurus" element={<PersamaanGarisLurusMenuPage />} />
@@ -131,7 +131,7 @@ const AppInner = () => {
       <Route path="/lingkaran-quiz" element={<LingkaranQuizPage />} />
       <Route path="/referensi" element={<ReferensiPage />} />
       <Route path="/kalkulator-scientific" element={<KalkulatorScientificPage />} />
-      <Route path="/video-pembelajaran" element={<VideoPembelajaranPage />} />
+      {/* <Route path="/video-pembelajaran" element={<VideoPembelajaranPage />} /> */}
       <Route path="/donasi" element={<DonasiPage />} />
       <Route path="/biografi" element={<BiografiPage />} />
       <Route path="/olimpiade" element={<OlimpiadePage />} />

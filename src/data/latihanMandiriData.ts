@@ -281,4 +281,304 @@ export const latihanMandiriData: Record<string, LatihanMandiriContent> = {
     ],
   },
 
+  // ===== ARITMETIKA SOSIAL - JUAL BELI =====
+  "aritmetika-sosial/jual-beli": {
+    title: "LATIHAN MANDIRI — JUAL BELI, UNTUNG DAN RUGI",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Sebuah barang dibeli dengan harga Rp500.000,00 dan dijual dengan harga Rp600.000,00. Tentukan keuntungan dan persentase keuntungannya!" },
+      { no: 2, soal: "Pedagang membeli 100 kg beras dengan harga Rp1.200.000,00. Jika ia ingin mendapatkan keuntungan 15%, berapa harga jual per kg?" },
+      { no: 3, soal: "Harga pembelian sebuah elektronik adalah Rp2.500.000,00. Setelah dijual, pedagang mengalami kerugian Rp250.000,00. Berapa harga jualnya?" },
+      { no: 4, soal: "Untung yang diperoleh seorang pedagang adalah 20% dari harga pembelian. Jika harga pembelian Rp750.000,00, berapakah harga jual dan besar untungnya?" },
+      { no: 5, soal: "Suatu barang dijual dengan harga Rp1.800.000,00 dan memberikan keuntungan 10%. Tentukan harga pembelian barang tersebut!" },
+    ],
+  },
+
+  // ===== ARITMETIKA SOSIAL - DISKON =====
+  "aritmetika-sosial/diskon": {
+    title: "LATIHAN MANDIRI — DISKON",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Harga sebuah shoes adalah Rp350.000,00. Jika mendapat diskon 25%, berapa harga yang harus dibayar?" },
+      { no: 2, soal: "Setelah mendapat diskon 15%, harga sebuah tas menjadi Rp255.000,00. Berapakah harga sebelum diskon?" },
+      { no: 3, soal: "Sebuah baju berharga Rp200.000,00. Pertama mendapat diskon 20%, kemudian diskon tambahan 10%. Berapa harga akhirnya?" },
+      { no: 4, soal: "Toko A memberikan diskon 30%, sedangkan Toko B memberikan diskon 25% + 10%. Manakah yang lebih menguntungkan?" },
+      { no: 5, soal: "Dengan diskon 40%, Ani membayar Rp180.000,00 untuk sebuah dress. Berapakah harga asli dress tersebut?" },
+    ],
+  },
+
+  // ===== ARITMETIKA SOSIAL - BRUTO NETTO TARA =====
+  "aritmetika-sosial/bruto-netto-tara": {
+    title: "LATIHAN MANDIRI — BRUTO, NETTO DAN TARA",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Bruto sebuah karung beras adalah 50 kg. Jika netto adalah 48,5 kg, berapakah tara-nya?" },
+      { no: 2, soal: "Sebuah kaleng makanan memiliki bruto 2 kg dan tara 15%. Berapakah netto-nya?" },
+      { no: 3, soal: "Netto suatu packaging adalah 500 gram dengan tara 5%. Berapakah bruto-nya?" },
+      { no: 4, soal: "Jika harga beras Rp12.000,00 per kg dan bruto 25 kg dengan netto 24 kg, berapakah yang harus dibayar?" },
+      { no: 5, soal: "Tara sebuah barang 2 kg, yaitu 5% dari bruto. Berapakah netto dan bruto-nya?" },
+    ],
+  },
+
+  // ===== ARITMETIKA SOSIAL - BUNGA TUNGGAL =====
+  "aritmetika-sosial/bunga-tunggal": {
+    title: "LATIHAN MANDIRI — BUNGA TUNGGAL",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Bunga 12% per tahun. Jika modal Rp5.000.000,00 ditabung selama 2 tahun, berapakah bunga yang diperoleh?" },
+      { no: 2, soal: "Setelah 18 bulan, bunga yang diterima Rp540.000,00 dengan tingkat bunga 12% per tahun. Berapakah modal awal?" },
+      { no: 3, soal: "Modal Rp2.000.000,00 menghasilkan bunga Rp180.000,00 dalam 9 bulan. Berapakah tingkat bunga per tahun?" },
+      { no: 4, soal: "Tabungan awal Rp10.000.000,00. Setelah 2 tahun menjadi Rp11.200.000,00. Berapakah persentase bunga per tahun?" },
+      { no: 5, soal: "Pinjaman Rp3.000.000,00 dengan bunga 15% per tahun. Setelah 10 bulan, berapa total yang harus dikembalikan?" },
+    ],
+  },
+
+  // ===== ARITMETIKA SOSIAL - PPN =====
+  "aritmetika-sosial/ppn": {
+    title: "LATIHAN MANDIRI — PAJAK PERTAMBAHAN NILAI (PPN)",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Harga barang sebelum PPN adalah Rp500.000,00. Jika PPN 10%, berapakah harga setelah pajak?" },
+      { no: 2, soal: "Sebuah restoran menambahkan PPN 10% pada total pembayaran. Jika total makanan sebelum pajak Rp250.000,00, berapakah yang harus dibayar pelanggan?" },
+      { no: 3, soal: "Setelah mendapat PPN 11%, harga sebuah laptop menjadi Rp16.600.000,00. Berapakah harga sebelum pajak?" },
+      { no: 4, soal: "PPN yang harus dibayarkan seorang pengusaha adalah Rp2.750.000,00 dengan tarif 11%. Berapakah omzet sebelum pajak?" },
+      { no: 5, soal: "Harga exclude PPN sebuah smartphone adalah Rp7.000.000,00. Dengan PPN 11%, berapakah total harga yang harus dibayar?" },
+    ],
+  },
+
+  // ===== ARITMETIKA SOSIAL - PPH =====
+  "aritmetika-sosial/pph": {
+    title: "LATIHAN MANDIRI — PAJAK PENGHASILAN (PPH)",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Gaji bulanan seorang karyawan Rp8.000.000,00. Jika tarif PPH 5%, berapakah pajak yang dipotong per bulan?" },
+      { no: 2, soal: "Seorang freelancer mendapat pendapatan Rp25.000.000,00 dalam setahun. Dengan tarif PPH 5% untuk wajib pajak baru, berapakah pajak yang harus dibayarkan?" },
+      { no: 3, soal: "Setelah membayar PPH, seorang pengusaha menerima bersih Rp190.000.000,00. Jika tarif PPH 5%, berapakah pendapatan brutonya?" },
+      { no: 4, soal: "Pendapatan seorang pekerja selama 1 tahun adalah Rp120.000.000,00. Dengan tarif progresif 5% untuk Rp60.000.000 pertama dan 15% untuk kelebihannya, hitung total PPH!" },
+      { no: 5, soal: "Seseorang memiliki PTPTKP Rp54.000.000,00 per tahun. Jika penghasilannya Rp84.000.000,00 per tahun dengan tarif 5%, berapakah PPH yang harus dibayar?" },
+    ],
+  },
+
+  // ===== GARIS DAN SUDUT - HUBUNGAN 2 GARIS =====
+  "garis-dan-sudut/hubungan-2-garis": {
+    title: "LATIHAN MANDIRI — HUBUNGAN 2 GARIS",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Dua garis yang tidak pernah bertemu disebut garis..." },
+      { no: 2, soal: "Garis yang memiliki satu titik persekutuan disebut garis..." },
+      { no: 3, soal: "Sebutkan jenis-jenis hubungan dua garis yang kamu ketahui!" },
+      { no: 4, soal: "Garis a dan b berpotongan di titik P. Garis c memotong keduanya. Bagaimana kedudukan garis-garis tersebut?" },
+      { no: 5, soal: "Diketahui dua garis sejajar dengan jarak 5 cm. Jika dibuat garis transversal memotong keduanya, berapakah besar sudut-sudut yang terbentuk?" },
+    ],
+  },
+
+  // ===== GARIS DAN SUDUT - JENIS SUDUT =====
+  "garis-dan-sudut/jenis-sudut": {
+    title: "LATIHAN MANDIRI — SUDUT PELURUS, SUDUT PENYIKIT DAN SUDUT BERTOLAK BELAKANG",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Dua sudut yang besarnya 180° disebut sudut..." },
+      { no: 2, soal: "Sudut pelurus dari 65° adalah..." },
+      { no: 3, soal: "Dua sudut yang bersisian dan jumlah 180° disebut sudut..." },
+      { no: 4, soal: "Sudut bertolak belakang dengan sudut 47° adalah..." },
+      { no: 5, soal: "Jika sudut A = 112°, berapakah besar sudut pelurus, sudut penyikut, dan sudut bertolak belakangnya?" },
+    ],
+  },
+
+  // ===== GARIS DAN SUDUT - SIFAT SUDUT =====
+  "garis-dan-sudut/sifat-sudut": {
+    title: "LATIHAN MANDIRI — SIFAT SUDUT DUA GARIS SEJAJAR",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Sebutkan 3 sifat sudut yang terbentuk jika dua garis sejajar dipotong garis transversal!" },
+      { no: 2, soal: "Garis sejajar a dan b dipotong garis transversal t. Jika salah satu sudut sehadap besarnya 75°, berapakah besar sudut-sudut yang lain?" },
+      { no: 3, soal: "Dua garis sejajar dipotong transversal. Jika sudut dalam berseberangan adalah 3x dan sudut luar berseberangan adalah 72°, hitung nilai x!" },
+      { no: 4, soal: "Garis g dan h sejajar. Transversal memotong keduanya. Jika sudut sehadap (x+20)° dan sudut berseberangan dalam (2x-10)°, hitung x!" },
+      { no: 5, soal: "Dua garis sejajar dipotong transversal membentuk sudut-sudut. Jika jumlah dua sudut sehadap adalah 140°, berapakah besar masing-masing sudut?" },
+    ],
+  },
+
+  // ===== GARIS DAN SUDUT - JUMLAH SUDUT SEGI BANYAK =====
+  "garis-dan-sudut/jumlah-sudut": {
+    title: "LATIHAN MANDIRI — JUMLAH SUDUT PADA SEGI BANYAK",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Berapakah jumlah sudut dalam segitiga?" },
+      { no: 2, soal: "Hitung jumlah sudut dalam segitiga sama sisi!" },
+      { no: 3, soal: "Berapakah jumlah sudut dalam segiempat?" },
+      { no: 4, soal: "Dalam sebuah segitiga, dua sudutnya masing-masing 45° dan 65°. Berapakah besar sudut ketiga?" },
+      { no: 5, soal: "Sebuah segidelapan beraturan. Berapakah besar setiap sudutnya?" },
+    ],
+  },
+
+  // ===== SEGITIGA DAN SEGIEMPAT - GARIS SPECIAL =====
+  "segitiga-dan-segiempat/garis-special": {
+    title: "LATIHAN MANDIRI — GARIS BERAT, GARIS BAGI DAN GARIS TINGGI PADA SEGITIGA",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Sebutkan dan jelaskan 3 jenis garis istimewa pada segitiga!" },
+      { no: 2, soal: "Garis bagi pada segitiga sama sisi berimpit dengan..." },
+      { no: 3, soal: "Pada segitiga sama kaki, garis berat berimpit dengan..." },
+      { no: 4, soal: "Jelaskan perbedaan antara garis tinggi dan garis berat pada segitiga!" },
+      { no: 5, soal: "Dalam sebuah segitiga siku-siku, dimanakah letak titik beratnya?" },
+    ],
+  },
+
+  // ===== SEGITIGA DAN SEGIEMPAT - KELILING SEGITIGA =====
+  "segitiga-dan-segiempat/segitiga-keliling": {
+    title: "LATIHAN MANDIRI — SEGITIGA (KELILING)",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Suatu segitiga memiliki sisi 8 cm, 10 cm, dan 12 cm. Berapakah kelilingnya?" },
+      { no: 2, soal: "Keliling segitiga sama sisi adalah 36 cm. Berapakah panjang setiap sisinya?" },
+      { no: 3, soal: "Segitiga siku-siku dengan sisi siku-siku 5 cm dan 12 cm. Berapakah kelilingnya?" },
+      { no: 4, soal: "Keliling segitiga adalah 48 cm. Jika dua sisinya 15 cm dan 18 cm, berapakah panjang sisi ketiga?" },
+      { no: 5, soal: "Suatu segitiga sama kaki memiliki keliling 26 cm dan sisi yang sama panjang 10 cm. Berapakah panjang sisi lainnya?" },
+    ],
+  },
+
+  // ===== SEGITIGA DAN SEGIEMPAT - LUAS SEGITIGA =====
+  "segitiga-dan-segiempat/segitiga-luas": {
+    title: "LATIHAN MANDIRI — SEGITIGA (LUAS)",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Alas sebuah segitiga 12 cm dan tinggi 8 cm. Berapakah luasnya?" },
+      { no: 2, soal: "Luas segitiga adalah 48 cm² dan alasnya 12 cm. Berapakah tinggi segitiga?" },
+      { no: 3, soal: "Hitung luas segitiga siku-siku dengan sisi siku-siku 6 cm dan 8 cm!" },
+      { no: 4, soal: "Segitiga dengan alas 15 cm dan tinggi t memiliki luas 60 cm². Berapakah tinggi t?" },
+      { no: 5, soal: "Luas segitiga sama sisi dengan sisi 10 cm adalah..." },
+    ],
+  },
+
+  // ===== SEGITIGA DAN SEGIEMPAT - KELILING SEGIEMPAT =====
+  "segitiga-dan-segiempat/segiempat-keliling": {
+    title: "LATIHAN MANDIRI — SEGIEMPAT (KELILING)",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Persegi panjang dengan panjang 12 cm dan lebar 8 cm. Berapakah kelilingnya?" },
+      { no: 2, soal: "Suatu persegi memiliki keliling 48 cm. Berapakah panjang sisinya?" },
+      { no: 3, soal: "Jajargenjang dengan sisi-sisi 15 cm dan 9 cm. Berapakah kelilingnya?" },
+      { no: 4, soal: "Belahketupat dengan sisi 7 cm. Berapakah kelilingnya?" },
+      { no: 5, soal: "Trapesium dengan sisi-sisi sejajar 10 cm dan 6 cm, serta sisi miring 5 cm. Berapakah kelilingnya?" },
+    ],
+  },
+
+  // ===== SEGITIGA DAN SEGIEMPAT - LUAS SEGIEMPAT =====
+  "segitiga-dan-segiempat/segiempat-luas": {
+    title: "LATIHAN MANDIRI — SEGIEMPAT (LUAS)",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Persegi panjang dengan panjang 15 cm dan lebar 8 cm. Berapakah luasnya?" },
+      { no: 2, soal: "Luas persegi adalah 144 cm². Berapakah panjang sisinya?" },
+      { no: 3, soal: "Jajargenjang dengan alas 12 cm dan tinggi 7 cm. Berapakah luasnya?" },
+      { no: 4, soal: "Belahketupat dengan diagonal 10 cm dan 16 cm. Berapakah luasnya?" },
+      { no: 5, soal: "Trapesium dengan sisi-sisi sejajar 8 cm dan 12 cm, tinggi 5 cm. Berapakah luasnya?" },
+    ],
+  },
+
+  // ===== HIMPUNAN - PENGERTIAN =====
+  "himpunan/pengertiaan": {
+    title: "LATIHAN MANDIRI — PENGERTIAN DAN KEANGGOTAAAN SUATU HIMPUNAN",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Sebutkan 3 contoh himpunan dalam kehidupan sehari-hari!" },
+      { no: 2, soal: "Diketahui A = {1, 2, 3, 4, 5}. Apakah 3 ∈ A? Apakah 7 ∈ A?" },
+      { no: 3, soal: "Sebutkan nama-nama anggota himpunan bilangan!" },
+      { no: 4, soal: "Apakah himpunan kosong merupakan himpunan? Jelaskan!" },
+      { no: 5, soal: "Buatlah contoh himpunan bilangan ganjil kurang dari 20!" },
+    ],
+  },
+
+  // ===== HIMPUNAN - MENYATAKAN =====
+  "himpunan/menyatakan": {
+    title: "LATIHAN MANDIRI — MENYATAKAN SUATU HIMPUNAN",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Nyatakan himpunan berikut dengan cara enumerasi: A = bilangan prima kurang dari 20" },
+      { no: 2, soal: "Nyatakan himpunan B = {x | x vokal dalam alphabet} dengan notasi pembentuk himpunan!" },
+      { no: 3, soal: "Himpunan kosong dinotasikan dengan... Berikan contoh himpunan kosong!" },
+      { no: 4, soal: "Sebutkan himpunan semesta yang mungkin untuk himpunan A = {1, 2, 3}!" },
+      { no: 5, soal: "Himpunan C = {x | x adalah hari dalam seminggu}. Nyatakan dengan cara deskripsi dan enumerasi!" },
+    ],
+  },
+
+  // ===== HIMPUNAN - DIAGRAM VENN =====
+  "himpunan/diagram-venn": {
+    title: "LATIHAN MANDIRI — DIAGRAM VENN",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Jelaskan apa yang dimaksud dengan Diagram Venn!" },
+      { no: 2, soal: "Gambarlah Diagram Venn untuk himpunan A = {1,2,3} dan B = {3,4,5} dengan semesta S = {1,2,3,4,5,6}!" },
+      { no: 3, soal: "Dalam Diagram Venn, di manakah letak irisan dua himpunan?" },
+      { no: 4, soal: "S = {bilangan cacah kurang dari 10}, A = {genap}, B = {prima}. Gambarkan Diagram Venn-nya!" },
+      { no: 5, soal: "Jelaskan cara menyajikan himpunan Bagian pada Diagram Venn!" },
+    ],
+  },
+
+  // ===== HIMPUNAN - HIMPUNAN BAGIAN =====
+  "himpunan/himpunan-bagian": {
+    title: "LATIHAN MANDIRI — HIMPUNAN BAGIAN",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Diketahui A = {1,2}. Tentukan semua himpunan bagian dari A!" },
+      { no: 2, soal: "Apakah ∅ ⊆ A untuk sembarang himpunan A? Jelaskan!" },
+      { no: 3, soal: "Jika B = {a,b,c}, berapakah banyak himpunan bagian dari B?" },
+      { no: 4, soal: "Diketahui C = {1,2,3,4}. Tentukan himpunan bagian C yang memiliki tepat 2 anggota!" },
+      { no: 5, soal: "Jelaskan hubungan antara banyak anggota himpunan dengan banyak himpunan bagiannya!" },
+    ],
+  },
+
+  // ===== HIMPUNAN - OPERASI HIMPUNAN =====
+  "himpunan/operasi-himpunan": {
+    title: "LATIHAN MANDIRI — OPERASI HIMPUNAN",
+    kelas: "Kelas 7",
+    backPath: "/latihan-mandiri",
+    backLabel: "Latihan Mandiri",
+    soal: [
+      { no: 1, soal: "Diketahui A = {1,2,3,4} dan B = {3,4,5,6}. Tentukan A ∪ B dan A ∩ B!" },
+      { no: 2, soal: "Jika A = {a,b,c} dan B = {c,d,e}, hitung A - B dan B - A!" },
+      { no: 3, soal: "Jelaskan perbedaan antara irisan dan gabungan dua himpunan!" },
+      { no: 4, soal: "S = {1,2,3,4,5,6}, A = {1,2,3}, B = {3,4,5}. Tentukan (A ∪ B) dan complement dari A dalam S!" },
+      { no: 5, soal: "Diketahui n(A) = 12, n(B) = 8, n(A∩B) = 5. Tentukan n(A ∪ B)!" },
+    ],
+  },
+
 };

@@ -5,7 +5,7 @@ import { ClipboardList, ArrowLeft, ArrowRight, GraduationCap, Pencil } from "luc
 import PageNavigation from "@/components/PageNavigation";
 import { playPopSound } from "@/hooks/useAudio";
 
-type Topic = "BILANGAN BULAT" | "PERBANDINGAN";
+type Topic = "BILANGAN BULAT" | "PERBANDINGAN" | "ARITMETIKA SOSIAL" | "GARIS DAN SUDUT" | "SEGITIGA DAN SEGIEMPAT" | "HIMPUNAN";
 
 interface SubTopic {
   label: string;
@@ -44,6 +44,46 @@ const latihanMandiriData: Record<string, KelasData> = {
           { label: "PERBANDINGAN SENILAI DAN BERBALIK NILAI", route: "/latihan-mandiri/perbandingan/senilai" },
           { label: "PERBANDINGAN CAMPURAN", route: "/latihan-mandiri/perbandingan/campuran" },
           { label: "SKALA", route: "/latihan-mandiri/perbandingan/skala" },
+        ],
+      },
+      {
+        label: "ARITMETIKA SOSIAL",
+        subTopics: [
+          { label: "JUAL BELI, UNTUNG DAN RUGI", route: "/latihan-mandiri/aritmetika-sosial/jual-beli" },
+          { label: "DISKON", route: "/latihan-mandiri/aritmetika-sosial/diskon" },
+          { label: "BRUTO, NETTO DAN TARA", route: "/latihan-mandiri/aritmetika-sosial/bruto-netto-tara" },
+          { label: "BUNGA TUNGGAL", route: "/latihan-mandiri/aritmetika-sosial/bunga-tunggal" },
+          { label: "PAJAK PERTAMBAHAN NILAI (PPN)", route: "/latihan-mandiri/aritmetika-sosial/ppn" },
+          { label: "PAJAK PENGHASILAN (PPH)", route: "/latihan-mandiri/aritmetika-sosial/pph" },
+        ],
+      },
+      {
+        label: "GARIS DAN SUDUT",
+        subTopics: [
+          { label: "HUBUNGAN 2 GARIS", route: "/latihan-mandiri/garis-dan-sudut/hubungan-2-garis" },
+          { label: "SUDUT PELURUS, SUDUT PENYIKUT DAN SUDUT BERTOLAK BELAKANG", route: "/latihan-mandiri/garis-dan-sudut/jenis-sudut" },
+          { label: "SIFAT SUDUT DUA GARIS SEJAJAR JIKA DIPOTONG GARIS LAIN", route: "/latihan-mandiri/garis-dan-sudut/sifat-sudut" },
+          { label: "JUMLAH SUDUT PADA SEGI BANYAK", route: "/latihan-mandiri/garis-dan-sudut/jumlah-sudut" },
+        ],
+      },
+      {
+        label: "SEGITIGA DAN SEGIEMPAT",
+        subTopics: [
+          { label: "GARIS BERAT, GARIS BAGI DAN GARIS TINGGI PADA SEGITIGA", route: "/latihan-mandiri/segitiga-dan-segiempat/garis-special" },
+          { label: "SEGITIGA (KELILING)", route: "/latihan-mandiri/segitiga-dan-segiempat/segitiga-keliling" },
+          { label: "SEGITIGA (LUAS)", route: "/latihan-mandiri/segitiga-dan-segiempat/segitiga-luas" },
+          { label: "SEGIEMPAT (KELILING)", route: "/latihan-mandiri/segitiga-dan-segiempat/segiempat-keliling" },
+          { label: "SEGIEMPAT (LUAS)", route: "/latihan-mandiri/segitiga-dan-segiempat/segiempat-luas" },
+        ],
+      },
+      {
+        label: "HIMPUNAN",
+        subTopics: [
+          { label: "PENGERTIAN DAN KEANGGOTAAAN SUATU HIMPUNAN", route: "/latihan-mandiri/himpunan/pengertiaan" },
+          { label: "MENYATAKAN SUATU HIMPUNAN, HIMPUNAN KOSONG DAN HIMPUNAN SEMESTA", route: "/latihan-mandiri/himpunan/menyatakan" },
+          { label: "DIAGRAM VENN", route: "/latihan-mandiri/himpunan/diagram-venn" },
+          { label: "HIMPUNAN BAGIAN", route: "/latihan-mandiri/himpunan/himpunan-bagian" },
+          { label: "OPERASI HIMPUNAN", route: "/latihan-mandiri/himpunan/operasi-himpunan" },
         ],
       },
     ],
